@@ -71,6 +71,8 @@ The idea is to make tables lazy, by using a `deque` to store the latest *N* entr
 the contents of of the cache on *N+1*, performing only one write to the multi_index table per
 each entry in the cache.
 
+You can check the code for this experiment in [smart_table](smart_table).
+
 The final results from the same operations, added by another 10x the amount, are as follows:
 ```bash
 $ eoslime test
