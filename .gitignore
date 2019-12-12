@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# C++ compilation flags for clangd
+compile_flags.txt
